@@ -25,8 +25,8 @@ const router = express.Router();
 // api router
 app.use('/api/v1/user', userRoute)
 
-app.get("/test", (req, res) => {
-    res.send({message: "update"})
+app.get("/", (req, res) => {
+    res.send("welcome, is will be update")
 })
 
 
