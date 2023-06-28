@@ -18,9 +18,6 @@ const regFormvalidator  = require('../utility/fromvalidator.js');
 const profilePhotoUpdate = async (req, res, next) => {
 
     try {
-
-
-        
         const {id} = req.params;
         // const {token, } = req.body; // token allready checked with mudilewear
         // const {id} = tokenVerify(token);
@@ -39,6 +36,7 @@ const profilePhotoUpdate = async (req, res, next) => {
     }
 
 }
+
 const featuredUpdate = async (req, res, next) => {
 
     try {
