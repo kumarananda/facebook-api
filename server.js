@@ -15,7 +15,7 @@ dotenv.config({path: 'config/config.env'})
 const app = require('./app');
 
 const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);
-// const DB = process.env.MONGOLOCAL
+
 
 // create a mongoDB connection
 const mongoDBConnect = async() => {
